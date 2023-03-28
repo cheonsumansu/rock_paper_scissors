@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+/**
+바탕색: #008080
+회색: #c0c0c0
+남색: #010180
+연한노란색: ##ffff9c
+**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DotGothic16', sans-serif;
+}
+body {
+    background-color: #008080;
+}
+header {
+    padding: 2rem 0 1rem;
+}
+header > h1 {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+#navy {
+    color: #010180;
+}
+.score-board {
+    margin: 3rem auto;
+    padding-bottom: 1rem;
+    width: 20rem;
+    background: #c0c0c0;
+    border: 0.2rem solid #c0c0c0;
+    font-size: 2rem;
+    text-align: center;
+    color: #1a1a1a;
+}
+.top-badge {
+    display: flex;
+    background: #010180;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+#user-label {
+    padding-left: 0.3rem;
+    text-align: left;
+}
+#computer-label {
+    padding-right: 0.3rem;
+    text-align: right;
+}
+.result {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.green-highlight {
+    display: inline;
+    box-shadow: inset 0 -0.8rem 0 #00ff00;
+}
+.red-highlight {
+    display: inline;
+    box-shadow: inset 0 -0.8rem 0 red;
+}
+.yellow-highlight {
+    display: inline;
+    box-shadow: inset 0 -0.8rem 0 yellow;
+}
+.choices {
+    margin: 4rem 0;
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    margin: 0 2.5rem;
+    padding: 1rem 0;
+    border: 0.2rem solid #c0c0c0;
+    border-radius: 0.3rem;
+}
+.choice:hover {
+    cursor: pointer;
+    background: #c0c0c0;
+    transition: all 0.4s ease;
+}
+#action-message {
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 1.5rem;
+}
